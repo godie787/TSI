@@ -23,12 +23,14 @@ body{
 
 .header .logo{
     cursor: pointer;
+    
 }
 
-.header .logo img{
+.header .logo img {
     height: 70px;
     width: auto;
     transition: all 0.3s;
+    border-radius: 50%;
 }
 
 .header .logo img:hover{
@@ -53,6 +55,7 @@ body{
     font-size: 300;
     color: #eceff1;
     text-decoration: none;  
+    margin-top: 20px;  
 }
 
 .header .nav-links li a:hover{

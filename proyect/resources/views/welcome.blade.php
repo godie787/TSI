@@ -15,7 +15,7 @@
 <body>
     <header class="header">
         <div class="logo">
-            <img src="../img/Mountain.png" alt="Logo de la marca">
+            <img src="{{asset('images/logo_empresa.JPG')}}" alt="Logo de la marca">
         </div>
         <nav>
            <ul class="nav-links">
@@ -26,15 +26,17 @@
         </nav>
         <a class="btn" href="#"><button>Contacto</button></a>
     </header>
-    <section class="vh-100" style="background-color: #9A616D;">
+    <section class="vh-100" style="background-color:#e8e8e8;">
         <div class="container py-5 h-100">
           <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col col-xl-10">
-              <div class="card" style="border-radius: 1rem;">
+              <div class="card" style="border-top-left-radius: 10px; border-top-right-radius: 10px;">
                 <div class="row g-0">
-                  <div class="col-md-6 col-lg-5 d-none d-md-block">
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img1.webp"
-                      alt="login form" class="img-fluid" style="border-radius: 1rem 0 0 1rem;" />
+                  <div class="col-md-6 col-lg-5 d-none d-md-block text-center"
+                  style="background-color: #9A616D; ">
+                    <img src="{{asset('images/logo_empresa.JPG')}}"
+                      alt="Cuarzos energía natural" class="img-fluid w-80 mx-auto rounded-circle"
+                      style="margin-top:220px; max-width: 400px; height: auto; " />
                   </div>
                   <div class="col-md-6 col-lg-7 d-flex align-items-center">
                     <div class="card-body p-4 p-lg-5 text-black">
@@ -59,7 +61,7 @@
                         </div>
       
                         <div class="pt-1 mb-4">
-                          <button class="btn btn-dark btn-lg btn-block" type="button">Iniciar sesión</button>
+                          <button style="background-color: #1b3039; color: #eceff1; font-size:20px;" class="btn btn-lg btn-block" type="button">Iniciar sesión</button>
                         </div>
       
                         <a class="small text-muted" href="#!">Olvidaste tu contraseña?</a>
