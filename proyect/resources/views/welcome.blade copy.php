@@ -1,17 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Pagina princial :) miauu</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- REFERENCIAS-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  <link rel="stylesheet" href="{{('css/styles.css')}}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar Uno</title>
+    <link rel="stylesheet" href="{{('css/styles.css')}}">
 </head>
-
 <body>
     <header class="header">
         <div class="logo">
@@ -20,8 +15,8 @@
         <nav>
            <ul class="nav-links">
                 <li><a href="#">Tienda</a></li>
-                <li><a href="#">Opcion de ejemplo</a></li>
-                <li><a href="#">Otra opción</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">About</a></li>
            </ul>            
         </nav>
         <a class="btn" href="#"><button>Contacto</button></a>
@@ -46,26 +41,27 @@
                           <span class="h1 fw-bold mb-0">Logo</span>
                         </div>
       
-                        <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Iniciar sesión en tu cuenta</h5>
+                        <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Sign into your account</h5>
       
                         <div class="form-outline mb-4">
                           <input type="email" id="form2Example17" class="form-control form-control-lg" />
-                          <label class="form-label" for="form2Example17">Email</label>
+                          <label class="form-label" for="form2Example17">Email address</label>
                         </div>
       
                         <div class="form-outline mb-4">
                           <input type="password" id="form2Example27" class="form-control form-control-lg" />
-                          <label class="form-label" for="form2Example27">Contraseña</label>
+                          <label class="form-label" for="form2Example27">Password</label>
                         </div>
       
                         <div class="pt-1 mb-4">
-                          <button class="btn btn-dark btn-lg btn-block" type="button">Iniciar sesión</button>
+                          <button class="btn btn-dark btn-lg btn-block" type="button">Login</button>
                         </div>
       
-                        <a class="small text-muted" href="#!">Olvidaste tu contraseña?</a>
-                        <p class="mb-5 pb-lg-2" style="color: #393f81;">No tienes una cuenta? <a href="#!"
-                            style="color: #393f81;">Registrate aquí</a></p>
-                    
+                        <a class="small text-muted" href="#!">Forgot password?</a>
+                        <p class="mb-5 pb-lg-2" style="color: #393f81;">Don't have an account? <a href="#!"
+                            style="color: #393f81;">Register here</a></p>
+                        <a href="#!" class="small text-muted">Terms of use.</a>
+                        <a href="#!" class="small text-muted">Privacy policy</a>
                       </form>
       
                     </div>
@@ -76,16 +72,5 @@
           </div>
         </div>
       </section>
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-  </script>
 </body>
-
 </html>
